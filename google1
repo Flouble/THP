@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google</title>
+	<link rel="stylesheet" href="google1.css" >
+
+</head>
+   <body>
+
+    <div id="header">
+      <table id="tableHeader">
+        <tr>
+          <td><a href="https://mail.google.com/mail/?tab=wm">Gmail</a></td>
+          <td><a href="https://www.google.fr/imghp?hl=fr&tab=wi&ei=_-CRWPXEJ8TzaJW0qOgO&ved=0EKouCBUoAQ">Images</a></td>
+          <td><img src="https://fonts.gstatic.com/s/i/materialicons/apps/v4/24px.svg?download=true" width="20px"/></td>
+          <td><form action="https://accounts.google.com/ServiceLogin?hl=fr&passive=true&continue=https://www.google.fr/%3Fgws_rd%3Dcr%26ei%3D7-KRWJyoHIXgaOWjtvAI#identifier"><input id="connexion" type="submit" name="connexion" value="Connexion"></form></td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="center">
+    	<div id="logo">
+	    	<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2000px-Google_2015_logo.svg.png">
+	    </div>
+	    <br>
+	    <div id="formulaire">
+	    	<form action="https://google.com">
+	    		<input type="text" name="recherche"> 
+	    		<br><br><br>
+	    		<input type="submit" name="recherche" value="Recherche Google">
+	    		<input type="submit" name="chance" value="J'ai de la chance">
+
+	    	</form>
+	    </div>
+
+    </div>
+
+    <div id="footer">
+      <table id="tableFooterLeft">
+        <tr>
+            <td><a href="https://www.google.fr/intl/en/ads/?fg=1">Publicité</a></td>
+            <td><a href="https://www.google.fr/services/?fg=1">Entreprise</a></td>
+            <td><a href="https://www.google.fr/intl/en/about.html?fg=1">A propos</a></td>
+        </tr>
+      </table>
+
+      <table id="tableFooterRight">
+        <tr>
+            <td><a href="https://www.google.fr/intl/en/policies/privacy/?fg=1">Confidentialité</a></td>
+            <td><a href="https://www.google.fr/intl/en/policies/terms/?fg=1">Conditions</a></td>
+            <td><a href="https://www.google.fr/preferences?hl=en">Paramètres</a></td>
+        </tr>
+      </table>
+
+    </div>
+
+  </body>
+
+</html>
